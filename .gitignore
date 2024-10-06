@@ -1,0 +1,6 @@
+.env
+.venv
+dist
+output.pdf
+output.md
+output.txt
