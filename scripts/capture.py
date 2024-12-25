@@ -14,7 +14,7 @@ TOTAL_PAGES = 569  # 処理するページ数
 WAIT_TIME = 1  # ページ遷移の待機時間（秒）
 
 # distフォルダを作成（存在しない場合）
-os.makedirs("dist", exist_ok=True)
+os.makedirs("dist/image", exist_ok=True)
 
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 

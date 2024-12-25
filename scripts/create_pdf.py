@@ -1,7 +1,7 @@
 from PIL import Image
 import os
 
-import tqdm
+from tqdm import tqdm
 
 
 def png_to_pdf(input_dir, output_pdf):
@@ -24,4 +24,4 @@ def png_to_pdf(input_dir, output_pdf):
 
 
 # 使用例
-png_to_pdf("dist", "output.pdf")
+png_to_pdf("dist/image", "dist/pdf/output.pdf")

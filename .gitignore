@@ -4,3 +4,5 @@ dist
 output.pdf
 output.md
 output.txt
+dist/image/*
+dist/pdf/*
